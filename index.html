@@ -57,9 +57,10 @@
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
           </div>
     </header>
-    <main class="">
-        <!-- <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true" aria-controls="collapseExample">Link with href</a> -->
-        <a class="btn btn-primary" data-toggle="collapse" href="#deal-of-week" role="button" aria-expanded="true" aria-controls="deal-of-week">Show/Hide</a>
+    <main class="main">
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#deal-of-week" aria-expanded="false" aria-controls="collapseExample">
+            Button with data-target
+          </button>
         <section id="deal-of-week" class="container collapse show">
             <div class="row ">
                 <h2>Deals of the Week</h2>
@@ -147,8 +148,8 @@
             </div>
 
         </section>
-        <a class="btn btn-primary" data-toggle="collapse" href="#welcome-summer" role="button" aria-expanded="true" aria-controls="welcome-summer">Show/Hide</a>
-        <section id="welcome-summer" class="container collapse show">
+       
+        <section id="welcome-summer" class="container">
             <div class="row ">
                 <h2>Welcome Summer</h2>
                 <div class="col-lg-2 col-md-4 col-sm-6 pt-3">
@@ -297,14 +298,14 @@
                 </div>
             </div>
         </section>
-        <a class="btn btn-primary" data-toggle="collapse" href="#deal-of-day" role="button" aria-expanded="true" aria-controls="deal-of-day">Show/Hide</a>
-        <section id="deal-of-day" class="container collapse show d-none d-sm-block shadow ">
+        
+        <section id="deal-of-day" class="container d-none d-sm-block shadow ">
             <h2>Deal of the Day</h2>
             <div class="row">
                 <div class="card mb-3 ">
                     <div class="row no-gutters">
                     <div class="col-8">
-                        <img class="deal-banner col-12" src="https://picsum.photos/id/10/2500/1667" alt="...">
+                        <img class="deal-banner col-12" src="https://picsum.photos/id/10/2500/150" alt="...">
                     </div>
                     <div class="col-4">
                         <div class="card-body">
@@ -317,8 +318,8 @@
                 </div>
             </div>
         </section>
-        <a class="btn btn-primary" data-toggle="collapse" href="#last-minute" role="button" aria-expanded="true" aria-controls="last-minute">Show/Hide</a>
-        <section id="last-minute" class="container collapse show">
+        
+        <section id="last-minute" class="container">
             <h2>Last Minute</h2>
             <div class="card-deck row">
                 <div class="card col-4">
@@ -353,8 +354,8 @@
                 </div>
             </div>
         </section>
-        <a class="btn btn-primary" data-toggle="collapse" href="#testimonial" role="button" aria-expanded="true" aria-controls="testimonial">Show/Hide</a>
-        <section id="testimonial" class="container collapse show">
+        
+        <section id="testimonial" class="container">
             <h2>Testimonial</h2>
             <div class="row">
                 <div class="card col-3">
@@ -439,5 +440,7 @@
       </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
